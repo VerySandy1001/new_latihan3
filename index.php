@@ -1,10 +1,8 @@
 <?php
-// --- BAGIAN PHP (LOGIKA SERVER) ---
-// Kita mendefinisikan data di sini, lalu menampilkannya di bawah
 $judul_halaman = "Website PHP Sederhana";
-$nama_pengunjung = "Sobat Coding"; // Anda bisa ubah nama ini
+$nama_pengunjung = "Sobat Coding"; 
 $daftar_hobi = ["Belajar PHP", "Membaca Dokumentasi", "Ngopi", "Debugging"]; 
-$hari_ini = date("l, d F Y"); // Mengambil tanggal otomatis dari server
+$hari_ini = date("l, d F Y"); 
 ?>
 
 <!DOCTYPE html>
@@ -26,9 +24,9 @@ $hari_ini = date("l, d F Y"); // Mengambil tanggal otomatis dari server
             box-shadow: 0 6px 12px rgba(0,0,0,0.1);
             max-width: 600px;
             margin: 0 auto;
-            border-top: 5px solid #4745a4; /* Warna ungu khas PHP */
+            border-top: 5px solid #4745a4;
         }
-        h1 span { color: #4745a4; }
+        h1 span { color: #7271b6ff; }
         ul { text-align: left; display: inline-block; }
         .info-waktu {
             margin-top: 20px;
